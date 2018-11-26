@@ -1,0 +1,146 @@
+.test-nontheme {
+    background: #fafafa;
+}
+.sp-image-container:after {
+    background-color: transparent;
+}
+.sp-image-container{
+display: flex;
+justify-content: center;
+}
+
+.main-slider__title {
+    display: none;
+}
+.b-contact-banner__inner img
+{
+    height: 100%;
+    width: 100%;
+}
+.main-nav{
+    font-size: 20px;
+    text-align: center;
+}
+.main-nav a {
+    color:black !important;
+    text-decoration: none;
+    margin-right: 20px;
+    position: relative;
+}
+.main-nav a:after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: all 250ms ease;
+}
+.main-nav a.active:after,
+.main-nav a:hover:after{
+  width: 100%;
+}
+
+.navbar-nontheme {
+    background-color: pink;
+}
+
+.header-nav-nontheme {
+    /* background-color: pink !important; */
+}
+
+.background-pink {
+    background-color: pink !important;
+}
+.heart-img{
+    height: 50px;
+}
+.b-type-a{
+    display: flex;
+}
+.buy-now {
+ 
+    font-size: 16px;
+    background: pink;
+    position: relative;
+    top: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    
+}
+
+.buy-now a {
+    color: white;
+}
+.buy-now a:hover{
+    text-decoration: underline;
+}
+.learn-more a {
+    color: white;
+}
+.learn-more a:hover {
+    text-decoration: underline;
+}
+.learn-more{
+    
+    font-size: 16px;
+background: pink;
+position: relative;
+top: 20px;
+height: 50px;
+width: 100px;
+border-radius: 10px;
+}
+.change-img{
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.hover-btn{
+border-radius: 10px;
+    font-size: 13px;
+    color: white;
+    background: crimson;
+    
+    box-shadow: 2px 2px 5px 0px #888888;
+}
+.hover-btn:hover{
+
+text-decoration: underline;
+}
+.Highlights {
+box-shadow: 2px 2px 5px 0px #888888;
+width: 150px;
+text-align: center;
+height: 41px;
+position: relative;
+top: 4px;
+border-radius: 10px;
+top:40px;
+left: 42px;
+}
+.services {
+    box-shadow: 2px 2px 5px 0px #888888;
+    width: 150px;
+    text-align: center;
+    height: 41px;
+    position: relative;
+    top: 4px;
+    border-radius: 10px;
+    top:50px;
+    left: 42px;  
+
+    
+}
+.details-nontheme {
+    position: relative;
+    top: 46px;
+}
+.services-nontheme {
+
+position: relative;
+top: 54px;
+
+} 
