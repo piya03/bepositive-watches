@@ -1,3 +1,10 @@
+
+.nav navbar-nav main-nav{
+    color: white !important;
+
+}
+
+
 .test-nontheme {
     background: #fafafa;
 }
@@ -43,15 +50,16 @@ justify-content: center;
 }
 
 .navbar-nontheme {
-    background-color: pink;
+    background-color: #396891
+    ;
 }
 
 .header-nav-nontheme {
-    /* background-color: pink !important; */
+    background-color: #396891;
 }
 
 .background-pink {
-    background-color: pink !important;
+    background-color: 396891;
 }
 .heart-img{
     height: 50px;
@@ -62,7 +70,7 @@ justify-content: center;
 .buy-now {
  
     font-size: 16px;
-    background: pink;
+    background: #ff8500;
     position: relative;
     top: 20px;
     height: 50px;
@@ -73,6 +81,7 @@ justify-content: center;
 
 .buy-now a {
     color: white;
+    
 }
 .buy-now a:hover{
     text-decoration: underline;
@@ -86,7 +95,7 @@ justify-content: center;
 .learn-more{
     
     font-size: 16px;
-background: pink;
+background: #ff8500;
 position: relative;
 top: 20px;
 height: 50px;
@@ -102,7 +111,7 @@ border-radius: 10px;
 border-radius: 10px;
     font-size: 13px;
     color: white;
-    background: crimson;
+    background: #ff8500;
     
     box-shadow: 2px 2px 5px 0px #888888;
 }
@@ -120,7 +129,11 @@ top: 4px;
 border-radius: 10px;
 top:40px;
 left: 42px;
+
 }
+.Highlights h4 {
+    color:#00556f;}
+
 .services {
     box-shadow: 2px 2px 5px 0px #888888;
     width: 150px;
@@ -131,8 +144,11 @@ left: 42px;
     border-radius: 10px;
     top:50px;
     left: 42px;  
-
     
+    
+}
+.services h4 {
+    color: #00556f;
 }
 .details-nontheme {
     position: relative;
