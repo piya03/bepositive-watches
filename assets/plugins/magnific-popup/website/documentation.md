@@ -389,7 +389,7 @@ $('.ajax-popup-link').magnificPopup({
 });
 {% endhighlight %}
 
-Note that path to the file that will be loaded should have the same origin (e.g. be on the same domain), [learn more](http://stackoverflow.com/questions/3076414/ways-to-circumvent-the-same-origin-policy).
+Note that path to the file that will be loaded should have the same origin (e.g. be on the same domain), [Learn More](http://stackoverflow.com/questions/3076414/ways-to-circumvent-the-same-origin-policy).
 
 Ajax options:
 

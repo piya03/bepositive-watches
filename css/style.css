@@ -1,4 +1,6 @@
-
+body {
+  background-color: #fff;
+}
 .nav navbar-nav main-nav{
     color: white !important;
 
@@ -108,12 +110,14 @@ border-radius: 10px;
     padding-bottom: 0px;
 }
 .hover-btn{
-border-radius: 10px;
-    font-size: 13px;
-    color: white;
-    background: #ff8500;
-    
-    box-shadow: 2px 2px 5px 0px #888888;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+  background: #ff8500;
+  box-shadow: 2px 2px 5px 0px #888888;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .hover-btn:hover{
 
@@ -160,3 +164,207 @@ position: relative;
 top: 54px;
 
 } 
+
+.header-nontheme {
+  display: flex;
+  justify-content: space-between;
+  background: #00546f;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  top: 0;
+  height: 60px;
+  z-index:11;
+  align-items: center;
+}
+.header-nontheme-menu {
+  width: 80%;
+}
+
+.header-nontheme-menu-ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+}
+.header-nontheme-menu-ul li a {
+  color: #fff !important;
+}
+.header-nontheme-menu-social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.social-net__link {
+  color: #fff !important;
+}
+
+/* carousel css */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  margin: auto;
+  top: 60px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  justify-content: center;
+}
+.mySlides img {
+  margin: auto !important;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* carousel css end */
+
+.border-2-colors {
+  background-color: #fff !important;
+  border-bottom-color: #fff !important;
+  border-top-color: #fff !important;
+}
+.border-2-colors::after {
+  background-color: #fff !important;
+}
+
+.parallax-dark:after {
+  background-color: transparent !important;
+}
+.section-bg::after{
+  background-color: transparent !important;
+}
+.footer__main_mod-a {
+  padding: 0px !important;
+}
+.b-advantages-1 {
+  padding: 0px !important;
+
+}
+.section__inner {
+  height: 100% !important;
+  padding-top: 40px;
+}
+
+.logo-img {
+  height: 100px;
+    position: relative;
+    top: 17px;
+}
+
+.footer-logo-container {
+  font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: -18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo-container a {
+  height: 85px;
+}
+.footer-logo-container span {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  top: -18px;
+}
+.parallax__inner {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
