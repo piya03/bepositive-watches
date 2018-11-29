@@ -403,3 +403,29 @@ top: 54px;
 .b-contact-banner {
   top: 0px;
 }
+.text-choose {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: #00546f;
+  position: relative;
+  top: -100px
+}
+/* //testing magnifier */
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 200px;
+  height: 200px;
+}
+#img-zoom-result-container {
+  /* border: 1px solid black; */
+  /*set the size of the result div:*/
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: -500px;
+}
